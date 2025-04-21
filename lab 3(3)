@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int episode;
+
+    printf("Введіть номер серії (1-5): ");
+    scanf("%d", &episode);
+
+    switch (episode) {
+        case 1:
+            printf("Серія 1: \"El hombre del mar\"\n");
+            printf("Дата прем'єри: 06 травня 2019\n");
+            break;
+        case 2:
+            printf("Серія 2: \"Fronteras\"\n");
+            printf("Дата прем'єри: 13 травня 2019\n");
+            break;
+        case 3:
+            printf("Серія 3: \"Un chivato\"\n");
+            printf("Дата прем'єри: 20 травня 2019\n");
+            break;
+        case 4:
+            printf("Серія 4: \"El turco\"\n");
+            printf("Дата прем'єри: 27 травня 2019\n");
+            break;
+        case 5:
+            printf("Серія 5: \"La trampa\"\n");
+            printf("Дата прем'єри: 03 червня 2019\n");
+            break;
+        default:
+            printf("Серії з таким номером не існує.\n");
+            break;
+    }
+
+    return 0;
+}
